@@ -50,7 +50,9 @@ int main () {
     printf("Área: %.2f Km2\n", area1);
     printf("PIB: %.2f reais\n", pib1);
     printf("Pontos turísticos: %d\n", pontosTuristicos1);
-
+    printf("O PIB per capita da cidade é: %.2f reais\n", pib1 / populacao1);
+    printf("A densidade demográfica da cidade é: %.2f habitantes por Km2\n", populacao1 / area1);
+    
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %c%s\n", estado2, codigo2);
@@ -59,5 +61,7 @@ int main () {
     printf("Área: %.2f Km2\n", area2);
     printf("PIB: %.2f reais\n", pib2);
     printf("Pontos turísticos: %d\n", pontosTuristicos2);
+    printf("O PIB per capita da cidade é: %.2f reais\n", pib2 / populacao2);
+    printf("A densidade demográfica da cidade é: %.2f habitantes por Km2\n", populacao2 / area2);
     
 }
